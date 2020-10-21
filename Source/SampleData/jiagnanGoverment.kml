@@ -1,0 +1,1041 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="POI（政府机构）" id="POI（政府机构）">
+	<SimpleField name="Style" type="string"></SimpleField>
+</Schema>
+<Folder><name>POI（政府机构）</name>
+  <Placemark>
+	<name>武汉市医疗保险中心</name>
+	<description>新华下路192号(国创大厦1-4层)</description>
+	<ExtendedData><SchemaData schemaUrl="#POI（政府机构）">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>114.2662430801446,30.613648965356713</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>武汉市司法局</name>
+	<description>武汉市江岸区发展大道415号司法行政大楼</description>
+	<ExtendedData><SchemaData schemaUrl="#POI（政府机构）">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>114.27632772733796,30.624960365783139</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>青山区人民政府政务服务中心</name>
+	<description>青山行政审批局3层</description>
+	<ExtendedData><SchemaData schemaUrl="#POI（政府机构）">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>114.38028453702279,30.628792654882872</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>武汉轨道交通线网管理服务中心</name>
+	<description>欢乐大道77号东湖花园社区斜对面</description>
+	<ExtendedData><SchemaData schemaUrl="#POI（政府机构）">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>114.36119132329047,30.585572162150577</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>武汉长江新城管理委员会</name>
+	<description>湖北省武汉市江岸区谌家矶大道88号</description>
+	<ExtendedData><SchemaData schemaUrl="#POI（政府机构）">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>114.36726950913612,30.680058027145908</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>武汉市锅炉压力容器检验研究所</name>
+	<description>武汉市东西湖区金银潭现代企业城a3栋</description>
+	<ExtendedData><SchemaData schemaUrl="#POI（政府机构）">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>114.26931466929665,30.67521506279105</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>长江二桥交通大队</name>
+	<description>湖北省武汉市武昌区才华街与友谊大道交叉处往北约30米</description>
+	<ExtendedData><SchemaData schemaUrl="#POI（政府机构）">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>114.34113203562231,30.596388494916255</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>武汉食品化妆品检验所</name>
+	<description>武汉市江岸区二七路144号</description>
+	<ExtendedData><SchemaData schemaUrl="#POI（政府机构）">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>114.31033188527717,30.629366304199365</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>武汉市水务局</name>
+	<description>武汉市江岸区汉口沿江大道211号</description>
+	<ExtendedData><SchemaData schemaUrl="#POI（政府机构）">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>114.30163585042249,30.59802800866925</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>武汉市人力资源和社会保障局青山社区保险管理处</name>
+	<description>武汉市青山区建设四路与金域巷交叉路口往东南约50米(金域花园西侧)</description>
+	<ExtendedData><SchemaData schemaUrl="#POI（政府机构）">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>114.38010764699656,30.628015024716959</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>杨园街道办事处</name>
+	<description>湖北省武汉市武昌区国盛路1号</description>
+	<ExtendedData><SchemaData schemaUrl="#POI（政府机构）">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>114.3452086443646,30.613896699453409</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>武汉市纪委监委后湖办公区</name>
+	<description>后湖大道新益街1号</description>
+	<ExtendedData><SchemaData schemaUrl="#POI（政府机构）">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>114.3028071357424,30.657407115031898</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>百步亭社区党员群众服务中心</name>
+	<description>武汉市江岸区温馨路13</description>
+	<ExtendedData><SchemaData schemaUrl="#POI（政府机构）">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>114.30982684057783,30.646258876765899</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>东湖风景区政务服务中心</name>
+	<description>湖北省武汉市洪山区罗家港路东湖庭园14栋楼</description>
+	<ExtendedData><SchemaData schemaUrl="#POI（政府机构）">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>114.37156085002091,30.591545658619232</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>青山社会保险管理处经办服务大厅</name>
+	<description>湖北省武汉市青山区建设四路20附近</description>
+	<ExtendedData><SchemaData schemaUrl="#POI（政府机构）">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>114.37999816417438,30.628117128375084</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>武汉市交管局高等级公路大队</name>
+	<description>武汉市黄陂区汉黄路与石道线交叉路口往西南约50米(宜鑫苑南侧)</description>
+	<ExtendedData><SchemaData schemaUrl="#POI（政府机构）">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>114.30889551294031,30.694637789883604</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>车辆购置税办税服务厅</name>
+	<description>湖北省武汉市洪山区徐东大街</description>
+	<ExtendedData><SchemaData schemaUrl="#POI（政府机构）">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>114.34726453290108,30.586399378674411</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>武汉市青山区民政局婚姻登记处</name>
+	<description>湖北省武汉市青山区建设四路19号</description>
+	<ExtendedData><SchemaData schemaUrl="#POI（政府机构）">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>114.38027060716999,30.628791419500807</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>武汉卓尔通用航空产业基地建设指挥部</name>
+	<description>巨龙大道23号附近</description>
+	<ExtendedData><SchemaData schemaUrl="#POI（政府机构）">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>114.29314285056287,30.700367134185566</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>建三青山税务局</name>
+	<description>湖北省武汉市青山区红卫路街道和平大道963号建三青山税务局</description>
+	<ExtendedData><SchemaData schemaUrl="#POI（政府机构）">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>114.37381201643792,30.629282057463591</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>百步亭消防中队</name>
+	<description>湖北省武汉市江岸区百步亭花园路86号</description>
+	<ExtendedData><SchemaData schemaUrl="#POI（政府机构）">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>114.31173273919281,30.650761565944226</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>武汉市公安局江岸区分局</name>
+	<description>湖北省武汉市江岸区兴业路166号</description>
+	<ExtendedData><SchemaData schemaUrl="#POI（政府机构）">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>114.28621611791692,30.63809137281034</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>武汉市江岸区人民政府谌家矶街办事处</name>
+	<description>湖北省武汉市谌家矶大道73</description>
+	<ExtendedData><SchemaData schemaUrl="#POI（政府机构）">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>114.36553924758078,30.678917278976009</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>武汉市青山区广播电视局</name>
+	<description>冶金一街1附23</description>
+	<ExtendedData><SchemaData schemaUrl="#POI（政府机构）">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>114.38890671978548,30.635691643446741</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>武汉市青山区审计局</name>
+	<description>和平大道971号</description>
+	<ExtendedData><SchemaData schemaUrl="#POI（政府机构）">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>114.37979803955247,30.642032400841082</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>武汉市青山区信访局</name>
+	<description>临江大道811-2号</description>
+	<ExtendedData><SchemaData schemaUrl="#POI（政府机构）">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>114.38004719347404,30.642962320078251</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>中国共产党武汉市青山区纪律检查委员会</name>
+	<description>临江大道868号</description>
+	<ExtendedData><SchemaData schemaUrl="#POI（政府机构）">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>114.37928283332344,30.642527626799907</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>黄陂超威办事处</name>
+	<description>湖北省武汉市黄陂区石道线</description>
+	<ExtendedData><SchemaData schemaUrl="#POI（政府机构）">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>114.31229742839311,30.698039173023538</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>江岸区塔子湖街道金潭村村民委员会</name>
+	<description>塔子湖街办事处</description>
+	<ExtendedData><SchemaData schemaUrl="#POI（政府机构）">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>114.28951176129813,30.670780200027512</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>武汉市青山区南干渠游园管理处</name>
+	<description>湖北省武汉市青山区冶金工业一路南干渠游园西门附近</description>
+	<ExtendedData><SchemaData schemaUrl="#POI（政府机构）">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>114.38560605277593,30.628776043614387</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>青山区三旧改造三十五街坊房屋征收项目部</name>
+	<description>冶金大道与工业二路交叉口北150米</description>
+	<ExtendedData><SchemaData schemaUrl="#POI（政府机构）">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>114.390942512072,30.63410385881059</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>武汉市青山区食品药品监督管理局冶金监督所</name>
+	<description>武汉市青山区鄂州街10号</description>
+	<ExtendedData><SchemaData schemaUrl="#POI（政府机构）">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>114.39186184465831,30.630810509405979</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>食品药品监管</name>
+	<description>湖北省武汉市青山区辽阳街8号附近</description>
+	<ExtendedData><SchemaData schemaUrl="#POI（政府机构）">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>114.38133303238378,30.626494634739888</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>岱山村城中村改造办公室</name>
+	<description>后湖街办事处岱家山404号岱山村</description>
+	<ExtendedData><SchemaData schemaUrl="#POI（政府机构）">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>114.31674232287469,30.675319732010291</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>工商代办食品经营许可证代办</name>
+	<description>湖北省武汉市青山区建设四路14东70米</description>
+	<ExtendedData><SchemaData schemaUrl="#POI（政府机构）">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>114.38020384354088,30.629173114009564</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>谌家矶社区党员群众服务中心</name>
+	<description>谌家矶街办事处谌家矶街谌家矶大道38号</description>
+	<ExtendedData><SchemaData schemaUrl="#POI（政府机构）">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>114.36481220207808,30.677952527526358</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>欣城社区冶金街网格化管理工作站</name>
+	<description>湖北省武汉市青山区工业三路37附17东80米</description>
+	<ExtendedData><SchemaData schemaUrl="#POI（政府机构）">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>114.39606276933534,30.626511322005239</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>青山区城市管理执法督察大队新沟桥中队</name>
+	<description>武汉市青山区市政侧街与悦宾巷交叉路口往南约50米(二十四街小区)</description>
+	<ExtendedData><SchemaData schemaUrl="#POI（政府机构）">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>114.39338647942442,30.636776815712448</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>青山区钢城分局</name>
+	<description>临江大道814号</description>
+	<ExtendedData><SchemaData schemaUrl="#POI（政府机构）">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>114.38355829195508,30.644460376799035</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>青山区三旧改造十二街坊房屋征收项目部</name>
+	<description>建设七路与红钢二街交叉口西50米</description>
+	<ExtendedData><SchemaData schemaUrl="#POI（政府机构）">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>114.39126558039744,30.643887921408439</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>三金潭消防</name>
+	<description>宏图路东50米</description>
+	<ExtendedData><SchemaData schemaUrl="#POI（政府机构）">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>114.26792337364591,30.683434309441225</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>武汉市公安局青山区分局</name>
+	<description>武汉市洪山区祥丰路99号</description>
+	<ExtendedData><SchemaData schemaUrl="#POI（政府机构）">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>114.37660399094035,30.613897446576754</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>青山区三旧改造113街坊(东)房屋征收项目部</name>
+	<description>湖北省武汉市青山区随州街8附近</description>
+	<ExtendedData><SchemaData schemaUrl="#POI（政府机构）">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>114.38464118209426,30.627484720776835</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>武汉市青山区人民代表大会常务委员会</name>
+	<description>临江大道868号</description>
+	<ExtendedData><SchemaData schemaUrl="#POI（政府机构）">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>114.37928283332344,30.642527626799907</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>武汉市公安局出入境管理处</name>
+	<description>湖北省武汉市江岸区金桥大道117号(武汉市民之家)</description>
+	<ExtendedData><SchemaData schemaUrl="#POI（政府机构）">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>114.29002626010102,30.662600249515545</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>和平派出所</name>
+	<description>武汉市洪山区团结大道</description>
+	<ExtendedData><SchemaData schemaUrl="#POI（政府机构）">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>114.39114427017441,30.608377103266594</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>中共武汉市青山区冶金街科技苑社区总支部委员会</name>
+	<description>冶金大道与工业一路交叉口东南150米</description>
+	<ExtendedData><SchemaData schemaUrl="#POI（政府机构）">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>114.38723155593732,30.632488867909327</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>青山区新沟桥街车站社区人民调解委员会</name>
+	<description>湖北省武汉市青山区和平大道1302-附1附近</description>
+	<ExtendedData><SchemaData schemaUrl="#POI（政府机构）">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>114.39361124709143,30.639810329220698</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>武汉市青山区文化体育局</name>
+	<description>和平大道971号</description>
+	<ExtendedData><SchemaData schemaUrl="#POI（政府机构）">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>114.37979803955247,30.642032400841082</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>武汉市城市路桥收费管理中心天兴洲大桥管理所</name>
+	<description>湖北省武汉市江岸区谌家矶街办事处谌家矶大道78号</description>
+	<ExtendedData><SchemaData schemaUrl="#POI（政府机构）">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>114.37982407661497,30.684972354070084</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>花桥街办事处</name>
+	<description>武汉市黄陂区巨龙大道15-17号日月山水附近</description>
+	<ExtendedData><SchemaData schemaUrl="#POI（政府机构）">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>114.29331391210242,30.697070912222532</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>武汉市洪山区人民代表大会常务委员会和平街工作委员会</name>
+	<description>湖北省武汉市青山区工业路15附近</description>
+	<ExtendedData><SchemaData schemaUrl="#POI（政府机构）">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>114.3821281824135,30.62615451229146</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>红钢城千街坊小区业主委员会</name>
+	<description>建设八路与红钢一街交叉口东北100米</description>
+	<ExtendedData><SchemaData schemaUrl="#POI（政府机构）">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>114.39517809358202,30.64786130952286</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>中共平安铺村支部委员会</name>
+	<description>谌家矶街办事处谌家叽大道平安铺村委会附近</description>
+	<ExtendedData><SchemaData schemaUrl="#POI（政府机构）">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>114.3797539799759,30.69357847182718</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>中国共产党武汉市青山区新沟桥街工作委员会</name>
+	<description>冶金一街8号</description>
+	<ExtendedData><SchemaData schemaUrl="#POI（政府机构）">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>114.39259255997004,30.635434554659867</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>中共武汉市江岸区谌家矶街谌家矶社区总支委员会</name>
+	<description>谌家矶与谌家矶大道交叉口南50米</description>
+	<ExtendedData><SchemaData schemaUrl="#POI（政府机构）">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>114.36484410424966,30.677969777952431</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>武汉市江岸区谌家矶街道新建村村民委员会</name>
+	<description>武汉市江岸区广汉街与三环线交叉路口往西南约100米(湖北大学知行学院)</description>
+	<ExtendedData><SchemaData schemaUrl="#POI（政府机构）">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>114.36741548411517,30.692924421768339</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>武钢憩乐护老院</name>
+	<description>建设七路与红钢一街交叉口西200米</description>
+	<ExtendedData><SchemaData schemaUrl="#POI（政府机构）">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>114.38900877270099,30.645960114411803</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>社区学雷锋志愿服务工作站</name>
+	<description>冶金大道与工业一路交叉口东南150米</description>
+	<ExtendedData><SchemaData schemaUrl="#POI（政府机构）">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>114.38723155593732,30.632488867909327</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>青山区货运车辆超限超载治理工作领导小组办公室</name>
+	<description>武汉市青山区建设七路与临江大道交叉路口南侧(临江社区)</description>
+	<ExtendedData><SchemaData schemaUrl="#POI（政府机构）">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>114.38938366165492,30.646979279536211</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>云生活志愿服务站</name>
+	<description>湖北省武汉市青山区红钢二街24号附近</description>
+	<ExtendedData><SchemaData schemaUrl="#POI（政府机构）">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>114.39649932188675,30.64612436049012</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>科普办公室</name>
+	<description>冶金大道与工业一路交叉口东南150米</description>
+	<ExtendedData><SchemaData schemaUrl="#POI（政府机构）">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>114.38723155593732,30.632488867909327</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>中国司法</name>
+	<description>湖北省武汉市青山区工业二路</description>
+	<ExtendedData><SchemaData schemaUrl="#POI（政府机构）">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>114.38806560900424,30.635432205089696</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>青山区语言文字工作委员会办公室</name>
+	<description>红钢三街21号</description>
+	<ExtendedData><SchemaData schemaUrl="#POI（政府机构）">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>114.39405176473733,30.643144226768626</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>鑫隆房产公司空置房清理办公室</name>
+	<description>九街坊14门</description>
+	<ExtendedData><SchemaData schemaUrl="#POI（政府机构）">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>114.39355315145703,30.644046107869634</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>青山区助残志愿服务基地</name>
+	<description>湖北省武汉市青山区建设七路1-附15</description>
+	<ExtendedData><SchemaData schemaUrl="#POI（政府机构）">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>114.39124224513574,30.644991222984672</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>武汉市青山区发展和改革委员会</name>
+	<description>临江大道868号</description>
+	<ExtendedData><SchemaData schemaUrl="#POI（政府机构）">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>114.38011844090654,30.642056793649981</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>ATT物业管理办公室</name>
+	<description>湖北省武汉市青山区红钢四街3-附3附近</description>
+	<ExtendedData><SchemaData schemaUrl="#POI（政府机构）">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>114.39510248497159,30.639649531783071</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>武钢老干部管理服务中心</name>
+	<description>建设八路2附1</description>
+	<ExtendedData><SchemaData schemaUrl="#POI（政府机构）">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>114.39333258337614,30.648427443402472</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>红钢城街和悦社区网格化管理工作站</name>
+	<description>红钢二街24号附近</description>
+	<ExtendedData><SchemaData schemaUrl="#POI（政府机构）">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>114.3964544585394,30.646093717255308</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>坐生活志愿服务站</name>
+	<description>湖北省武汉市青山区和平大道1085-附13附近</description>
+	<ExtendedData><SchemaData schemaUrl="#POI（政府机构）">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>114.39605100936187,30.642359869553715</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>社区学雷锋志愿服务工作站</name>
+	<description>沿港一巷与红钢四街交叉口南100米</description>
+	<ExtendedData><SchemaData schemaUrl="#POI（政府机构）">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>114.39595908371001,30.638464774252196</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>青山区城市管理执法督察大队钢花中队</name>
+	<description>武汉市青山区随州街与工业二路交叉路口往西约50米(钢花新村110小区)</description>
+	<ExtendedData><SchemaData schemaUrl="#POI（政府机构）">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>114.3891615966251,30.627510534115871</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>青山区新沟桥街人民调解委员会人民调解中心</name>
+	<description>工业三路7号附近</description>
+	<ExtendedData><SchemaData schemaUrl="#POI（政府机构）">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>114.39486159911647,30.634881578394065</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>武汉市青山区教育局科技电教站</name>
+	<description>青山新桥花园东区青山教育局科技电教站12楼</description>
+	<ExtendedData><SchemaData schemaUrl="#POI（政府机构）">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>114.39104912523133,30.635758999572101</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>新沟桥街科苑社区网格化管理工作站</name>
+	<description>湖北省武汉市青山区工业三路与冶金一街交叉处附近</description>
+	<ExtendedData><SchemaData schemaUrl="#POI（政府机构）">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>114.39488550642808,30.634792978734293</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>武钢后勤集团公司快餐食品饮料公司退居休人员管理办公室</name>
+	<description>湖北省武汉市青山区建设八路1-14号附近</description>
+	<ExtendedData><SchemaData schemaUrl="#POI（政府机构）">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>114.39421237251192,30.647275606310913</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>青山区新沟桥街安保巡逻中队第三小队</name>
+	<description>冶金一街79号附近</description>
+	<ExtendedData><SchemaData schemaUrl="#POI（政府机构）">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>114.39679977424595,30.635890951962569</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>青山区4243街坊拆迁工作项目部</name>
+	<description>湖北省武汉市青山区建设五路431门附近</description>
+	<ExtendedData><SchemaData schemaUrl="#POI（政府机构）">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>114.38467726219731,30.637609138272904</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>河道堤防管理所岱山堤工段</name>
+	<description>谌家矶新盛街3号</description>
+	<ExtendedData><SchemaData schemaUrl="#POI（政府机构）">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>114.33125903589246,30.671499278273888</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>中国铁建11局</name>
+	<description>宏图大道与金潭路交界处</description>
+	<ExtendedData><SchemaData schemaUrl="#POI（政府机构）">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>114.26953606703844,30.679162634085696</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>武汉市青山区交通战备办公室</name>
+	<description>武汉市青山区悦宾巷与市政侧街交叉路口北侧(二十四街小区北侧约50米)</description>
+	<ExtendedData><SchemaData schemaUrl="#POI（政府机构）">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>114.39306001958114,30.638075130492314</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>新沟桥街光明社区安保服务队</name>
+	<description>武汉市青山区冶金一街2附16号</description>
+	<ExtendedData><SchemaData schemaUrl="#POI（政府机构）">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>114.3882238690047,30.635447942766532</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>工商行政管理</name>
+	<description>武汉市青山区市政侧街与沿港路交叉路口往西约100米(市政小区-南区)</description>
+	<ExtendedData><SchemaData schemaUrl="#POI（政府机构）">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>114.39706908151354,30.637453221636839</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>湖北省武汉市洪山区和平街综治中心</name>
+	<description>湖北省武汉市青山区工业路13附近</description>
+	<ExtendedData><SchemaData schemaUrl="#POI（政府机构）">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>114.38197174836917,30.626710534004257</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>青山区城市管理委员会工会职工服务中心</name>
+	<description>武汉市青山区市政侧街与悦宾巷交叉路口东北侧(二十四街小区北侧约50米)</description>
+	<ExtendedData><SchemaData schemaUrl="#POI（政府机构）">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>114.39359685698061,30.638019711625226</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>武汉市青山区新沟桥街办事处群众信访接待服务中心</name>
+	<description>武汉市青山区工业三路与冶金一街交叉路口向南约50米(武汉市电大青山分校)</description>
+	<ExtendedData><SchemaData schemaUrl="#POI（政府机构）">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>114.39491638920076,30.634734473717838</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>武汉市江岸区谌家矶街阳光驿站</name>
+	<description>谌家矶大道81附7号附近</description>
+	<ExtendedData><SchemaData schemaUrl="#POI（政府机构）">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>114.36631571755095,30.679382064201103</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>江岸区公共租赁住房(台北)运营管理站</name>
+	<description>谌家矶街办事处天兴花园二期(天盛苑)101栋</description>
+	<ExtendedData><SchemaData schemaUrl="#POI（政府机构）">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>114.36441119089319,30.687542099382796</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>和畅社区义务消防队</name>
+	<description>红钢一街11号附近</description>
+	<ExtendedData><SchemaData schemaUrl="#POI（政府机构）">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>114.39130193429699,30.644892244064113</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>红钢城街九街社区安保服务队</name>
+	<description>建设八路与红钢二街交叉口西南100米</description>
+	<ExtendedData><SchemaData schemaUrl="#POI（政府机构）">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>114.39508089287179,30.645234518656345</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>新沟桥街网格化综合管理中心</name>
+	<description>湖北省武汉市青山区冶金一街8号附近</description>
+	<ExtendedData><SchemaData schemaUrl="#POI（政府机构）">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>114.39238939863985,30.6354072621562</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>武汉市江岸区儿童福利指导中心</name>
+	<description>兴盛路203号</description>
+	<ExtendedData><SchemaData schemaUrl="#POI（政府机构）">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>114.36383228000149,30.690243663639375</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>武汉市江岸区城管(执法)局谌家矶街中队</name>
+	<description>湖北省武汉市江岸区谌家矶大道44</description>
+	<ExtendedData><SchemaData schemaUrl="#POI（政府机构）">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>114.36766166573585,30.679415200684694</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>科苑社区党员群众服务中心(工业三路)</name>
+	<description>新沟桥工业三路26号原48中</description>
+	<ExtendedData><SchemaData schemaUrl="#POI（政府机构）">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>114.39486956614765,30.634797733031647</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>黄埔车管所</name>
+	<description>谌家矶大道88号</description>
+	<ExtendedData><SchemaData schemaUrl="#POI（政府机构）">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>114.37495007971535,30.684987509992389</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>武汉市公安局青山区分局(钢城分局)红卫路派出所</name>
+	<description>湖北省武汉市青山区建设三路28号</description>
+	<ExtendedData><SchemaData schemaUrl="#POI（政府机构）">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>114.37483352043289,30.628104558370428</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>红钢城街九街社区流动人口服务管理站</name>
+	<description>建设八路与红钢二街交叉口西南100米</description>
+	<ExtendedData><SchemaData schemaUrl="#POI（政府机构）">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>114.39508089287179,30.645234518656345</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>武汉市公安局交通管理局车辆管理所(黄浦汽车市场办证点)</name>
+	<description>武汉市江岸区金桥大道特1号(中环商贸城)</description>
+	<ExtendedData><SchemaData schemaUrl="#POI（政府机构）">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>114.29818710234731,30.664494577618026</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>青山区钢花村街110社区居家养老服务中心</name>
+	<description>武汉市青山区工业一路与随州街交叉路口南侧(钢花新村110小区)</description>
+	<ExtendedData><SchemaData schemaUrl="#POI（政府机构）">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>114.38624147662891,30.627163948368633</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>江岸区谌家矶街工会职工服务中心平安苑社区工作站</name>
+	<description>武汉市江岸区</description>
+	<ExtendedData><SchemaData schemaUrl="#POI（政府机构）">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>114.37162518883943,30.690937349621066</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>武汉市青山区人民政府教育督导室</name>
+	<description>湖北省武汉市青山区红钢三街21号</description>
+	<ExtendedData><SchemaData schemaUrl="#POI（政府机构）">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>114.39445224077423,30.643188450095227</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>青山区人民政府教育督导室</name>
+	<description>冶金一街7号</description>
+	<ExtendedData><SchemaData schemaUrl="#POI（政府机构）">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>114.3932260145187,30.635850599514026</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>武汉市公安局青山分局冶金派出所</name>
+	<description>鄂州街14号</description>
+	<ExtendedData><SchemaData schemaUrl="#POI（政府机构）">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>114.39261169456755,30.630940708737427</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>武汉市公安局江岸区交通大队事故处理中队</name>
+	<description>湖北省武汉市江岸区汉黄路7东北90米</description>
+	<ExtendedData><SchemaData schemaUrl="#POI（政府机构）">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>114.32683957451182,30.664668596874602</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>武汉铁路局党校</name>
+	<description>武汉市武昌区徐东大街38号</description>
+	<ExtendedData><SchemaData schemaUrl="#POI（政府机构）">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>114.34246532893007,30.587607800644545</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>青山公安分局办证中心</name>
+	<description>湖北省武汉市青山区建设四路青山政务服务大楼</description>
+	<ExtendedData><SchemaData schemaUrl="#POI（政府机构）">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>114.38006365740758,30.628741942596584</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>武汉市青山区司法局新沟桥司法所</name>
+	<description>武汉市青山区冶金一街2附15号</description>
+	<ExtendedData><SchemaData schemaUrl="#POI（政府机构）">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>114.38808650875086,30.635402578936894</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>武汉市公安局特警支队驻青山大队</name>
+	<description>临江大道814号</description>
+	<ExtendedData><SchemaData schemaUrl="#POI（政府机构）">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>114.38365180848193,30.644428020469149</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>丹水池派出所汉黄社区警务室</name>
+	<description>丹水池街办事处汉黄路32号金旭建材市场内</description>
+	<ExtendedData><SchemaData schemaUrl="#POI（政府机构）">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>114.32481451829966,30.670777539943732</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>钢城巡逻民警大队</name>
+	<description>临江大道814号武汉市公安局青山区分局(钢城分局)</description>
+	<ExtendedData><SchemaData schemaUrl="#POI（政府机构）">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>114.38365180848193,30.644428020469149</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>日月社区居委会</name>
+	<description>湖北省武汉市黄陂区盘龙城经济开发区日月山水西区21栋</description>
+	<ExtendedData><SchemaData schemaUrl="#POI（政府机构）">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>114.2905816828295,30.697763294089274</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>新沟桥派出所警务室</name>
+	<description>武汉市青山区市政侧街与悦宾巷交叉路口往南约50米(二十四街小区)</description>
+	<ExtendedData><SchemaData schemaUrl="#POI（政府机构）">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>114.39271620852836,30.636874019790554</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>新沟桥街流动人口和房屋租赁服务管理中心</name>
+	<description>工业三路7号附近</description>
+	<ExtendedData><SchemaData schemaUrl="#POI（政府机构）">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>114.3949163941961,30.634873419509599</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>全国统一安装工程预算定额炉窑砌筑管理组</name>
+	<description>工业大道3号中国一冶16层</description>
+	<ExtendedData><SchemaData schemaUrl="#POI（政府机构）">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>114.38251338130455,30.628723962264409</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>武汉市青山区安保巡逻大队</name>
+	<description>湖北省武汉市青山区临江大道814号</description>
+	<ExtendedData><SchemaData schemaUrl="#POI（政府机构）">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>114.38362899547298,30.644568582374426</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>后湖派出所岱山村警务室</name>
+	<description>岱家山316号</description>
+	<ExtendedData><SchemaData schemaUrl="#POI（政府机构）">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>114.31688551878207,30.676484819903585</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>武汉市公安局青山区分局(钢城分局巡逻民警大队)</name>
+	<description>湖北省武汉市青山区临江大道814号</description>
+	<ExtendedData><SchemaData schemaUrl="#POI（政府机构）">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>114.38379412086306,30.644470497425704</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>冶金派出所名流社区警务室</name>
+	<description>湖北省武汉市青山区鄂州街16附4附近</description>
+	<ExtendedData><SchemaData schemaUrl="#POI（政府机构）">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>114.39531418092034,30.630941090552035</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>冶金派出所科技苑社区警务室</name>
+	<description>湖北省武汉市青山区鄂州街5-1号附近</description>
+	<ExtendedData><SchemaData schemaUrl="#POI（政府机构）">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>114.3898634958458,30.631247826957125</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>武汉市公安局青山分局新沟桥派出所警务室</name>
+	<description>湖北省武汉市青山区红钢二街1号附近</description>
+	<ExtendedData><SchemaData schemaUrl="#POI（政府机构）">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>114.38484627538374,30.640734050918084</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>青山钢城公安分局钢花派出所110社区警务室</name>
+	<description>武汉市青山区工业一路与随州街交叉路口南侧(钢花新村110小区)</description>
+	<ExtendedData><SchemaData schemaUrl="#POI（政府机构）">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>114.3862016782932,30.627138263301244</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>新沟桥派出所馨园社区警务室</name>
+	<description>新沟桥红钢二街17附3号</description>
+	<ExtendedData><SchemaData schemaUrl="#POI（政府机构）">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>114.38970533003645,30.64355970876986</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>红钢城派出所九街社区警务室</name>
+	<description>武汉市青山区建设八路与红钢二街交叉口西南100米</description>
+	<ExtendedData><SchemaData schemaUrl="#POI（政府机构）">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>114.39534602754415,30.645438477901969</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>蒋家墩社区居委会</name>
+	<description>建设五路与红钢一街交叉口北150米</description>
+	<ExtendedData><SchemaData schemaUrl="#POI（政府机构）">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>114.3826939445256,30.643085702077027</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>十九街社区居委会</name>
+	<description>沿港一巷10</description>
+	<ExtendedData><SchemaData schemaUrl="#POI（政府机构）">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>114.39603681246734,30.63847791713431</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>热电社区居委会</name>
+	<description>建设五路4附7</description>
+	<ExtendedData><SchemaData schemaUrl="#POI（政府机构）">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>114.38252424441465,30.64180513781611</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>武汉市青山区红钢城街道和悦社区居民委员会</name>
+	<description>湖北省武汉市青山区红钢二街24号附近</description>
+	<ExtendedData><SchemaData schemaUrl="#POI（政府机构）">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>114.39641458590883,30.646076142150246</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>福安消防</name>
+	<description>武汉市东西湖区</description>
+	<ExtendedData><SchemaData schemaUrl="#POI（政府机构）">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>114.27298547932273,30.682933404267413</coordinates></Point>
+  </Placemark>
+</Folder>
+</Document></kml>
