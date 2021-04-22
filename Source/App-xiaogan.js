@@ -2,8 +2,9 @@
   "use strict";
 
   // TODO: Add your ion access token from cesium.com/ion/
-  Cesium.Ion.defaultAccessToken =
-    'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqdGkiOiI2ODRlYzNmMS0yNDIwLTQ2NmMtYTc3Zi0wMzM4NmQ0YjYzMTIiLCJpZCI6MzA5NjgsInNjb3BlcyI6WyJhc3IiLCJnYyJdLCJpYXQiOjE1OTQ2NDk0OTJ9.Zv-IGFXrfy8a1gJmwGBqgXEZAuNKJ-UGcjjDy-Mbass';
+  Cesium.Ion.defaultAccessToken = '';
+  // Cesium.Ion.defaultAccessToken =
+  //   'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqdGkiOiI2ODRlYzNmMS0yNDIwLTQ2NmMtYTc3Zi0wMzM4NmQ0YjYzMTIiLCJpZCI6MzA5NjgsInNjb3BlcyI6WyJhc3IiLCJnYyJdLCJpYXQiOjE1OTQ2NDk0OTJ9.Zv-IGFXrfy8a1gJmwGBqgXEZAuNKJ-UGcjjDy-Mbass';
   //////////////////////////////////////////////////////////////////////////
   // Creating the Viewer
   //////////////////////////////////////////////////////////////////////////
@@ -26,9 +27,7 @@
   // viewer.imageryLayers.addImageryProvider(new Cesium.IonImageryProvider({ assetId: 3954 }));
   // var url = '/darkblue/tiles/{z}/{x}/{y}.jpg';
   var url = 'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
-  viewer.imageryLayers.addImageryProvider(new Cesium.UrlTemplateImageryProvider({
-    url
-  }));
+  viewer.imageryLayers.addImageryProvider(new Cesium.UrlTemplateImageryProvider({ url }));
   //////////////////////////////////////////////////////////////////////////
   // Loading Terrain
   //////////////////////////////////////////////////////////////////////////
@@ -49,9 +48,8 @@
   viewer.scene.globe.enableLighting = true;
 
   // Create an initial camera view
-  // var initialPosition = new Cesium.Cartesian3.fromDegrees(113.954422, 30.920587, 2631.082799425431); // 孝感
+  var initialPosition = new Cesium.Cartesian3.fromDegrees(113.954422, 30.920587, 2631.082799425431); // 孝感
   // var initialPosition = new Cesium.Cartesian3.fromDegrees(114.29797053337097, 30.50787510375684, 6631.082799425431); // 武汉
-  var initialPosition = new Cesium.Cartesian3.fromDegrees(121.5021463849818, 31.236440277115648, 6631.082799425431); // 上海
   var initialOrientation = new Cesium.HeadingPitchRoll.fromDegrees(0.1077496389876024807, -30.987223091598949054, 0.025883251314954971306);
   var homeCameraView = {
     destination: initialPosition,
@@ -142,6 +140,7 @@
   // Save an new entity collection of neighborhood data
   var neighborhoods;
   neighborhoodsPromise.then(function (dataSource) {
+    debugger
     // Add the new data as entities to the viewer
     viewer.dataSources.add(dataSource);
     neighborhoods = dataSource.entities;
@@ -256,17 +255,10 @@
   // var city = viewer.scene.primitives.add(new Cesium.Cesium3DTileset({ url: Cesium.IonResource.fromAssetId(75343) }));
   // var city = viewer.scene.primitives.add(new Cesium.Cesium3DTileset({ url: '/output/jianganselfimg/tileset.json' }));
   // var city = viewer.scene.primitives.add(new Cesium.Cesium3DTileset({ url: '/output/oldselfimg2/tileset.json' }));
-  var tileset = new Cesium.Cesium3DTileset({
-    url: '/output/sh-jz/tileset.json',
-    // modelMatrix: Cesium.Matrix4.fromArray([0.993333976771986, 0.09376970623153003, 0.06704366326211811, 0, -0.08406709295382309, 0.9872408437441759, -0.1352340205923821, 0, -0.07886909707005063, 0.12869638159847446, 0.9885428199581521, 0, -807.6444923058152, 1317.8916411949322, 3385.1850884505548, 1]),
+  // var city = viewer.scene.primitives.add(new Cesium.Cesium3DTileset({ url: '/output/newselfimg2/tileset.json' }));
+  var city = viewer.scene.primitives.add(new Cesium.Cesium3DTileset({ url: '/output/xiaogan/tileset.json' }));
 
 
-  })
-
-  var city = viewer.scene.primitives.add(tileset);
-  // var city = viewer.scene.primitives.add(new Cesium.Cesium3DTileset({ url: '/output/wuhan-online/tileset.json' }));
-
-  viewer.zoomTo(tileset)
   //////////////////////////////////////////////////////////////////////////
   // Style 3D Tileset
   //////////////////////////////////////////////////////////////////////////

@@ -3,7 +3,8 @@
 
   // TODO: Add your ion access token from cesium.com/ion/
   // Cesium.Ion.defaultAccessToken = '<YOUR ACCESS TOKEN HERE>';
-
+  Cesium.Ion.defaultAccessToken =
+    'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqdGkiOiI2ODRlYzNmMS0yNDIwLTQ2NmMtYTc3Zi0wMzM4NmQ0YjYzMTIiLCJpZCI6MzA5NjgsInNjb3BlcyI6WyJhc3IiLCJnYyJdLCJpYXQiOjE1OTQ2NDk0OTJ9.Zv-IGFXrfy8a1gJmwGBqgXEZAuNKJ-UGcjjDy-Mbass';
   //////////////////////////////////////////////////////////////////////////
   // Creating the Viewer
   //////////////////////////////////////////////////////////////////////////
@@ -13,7 +14,8 @@
     selectionIndicator: false,
     baseLayerPicker: false
   });
-
+  console.log('Cesium', Cesium)
+  console.log('viewer', viewer)
   //////////////////////////////////////////////////////////////////////////
   // Loading Imagery
   //////////////////////////////////////////////////////////////////////////
@@ -22,19 +24,20 @@
   viewer.imageryLayers.remove(viewer.imageryLayers.get(0));
 
   // Add Sentinel-2 imagery
-  viewer.imageryLayers.addImageryProvider(new Cesium.IonImageryProvider({ assetId: 3954 }));
-
+  // viewer.imageryLayers.addImageryProvider(new Cesium.IonImageryProvider({ assetId: 3954 }));
+  var url = '/darkblue/tiles/{z}/{x}/{y}.jpg';
+  viewer.imageryLayers.addImageryProvider(new Cesium.UrlTemplateImageryProvider({ url }));
   //////////////////////////////////////////////////////////////////////////
   // Loading Terrain
   //////////////////////////////////////////////////////////////////////////
 
-  // Load Cesium World Terrain
-  viewer.terrainProvider = Cesium.createWorldTerrain({
-    requestWaterMask: true, // required for water effects
-    requestVertexNormals: true // required for terrain lighting
-  });
-  // Enable depth testing so things behind the terrain disappear.
-  viewer.scene.globe.depthTestAgainstTerrain = true;
+  // // Load Cesium World Terrain
+  // viewer.terrainProvider = Cesium.createWorldTerrain({
+  //   requestWaterMask: true, // required for water effects
+  //   requestVertexNormals: true // required for terrain lighting
+  // });
+  // // Enable depth testing so things behind the terrain disappear.
+  // viewer.scene.globe.depthTestAgainstTerrain = true;
 
   //////////////////////////////////////////////////////////////////////////
   // Configuring the Scene
@@ -44,8 +47,9 @@
   viewer.scene.globe.enableLighting = true;
 
   // Create an initial camera view
-  var initialPosition = new Cesium.Cartesian3.fromDegrees(-73.998114468289017509, 40.674512895646692812, 2631.082799425431);
-  var initialOrientation = new Cesium.HeadingPitchRoll.fromDegrees(7.1077496389876024807, -31.987223091598949054, 0.025883251314954971306);
+  // var initialPosition = new Cesium.Cartesian3.fromDegrees(114.30385832, 30.64797001, 2631.082799425431);
+  var initialPosition = new Cesium.Cartesian3.fromDegrees(114.29797053337097, 30.50787510375684, 6631.082799425431);
+  var initialOrientation = new Cesium.HeadingPitchRoll.fromDegrees(0.1077496389876024807, -30.987223091598949054, 0.025883251314954971306);
   var homeCameraView = {
     destination: initialPosition,
     orientation: {
@@ -87,9 +91,10 @@
     canvas: viewer.scene.canvas,
     clampToGround: true
   };
-  // Load geocache points of interest from a KML file
+  // Load geocache points of interest from a KML file 点数据
   // Data from : http://catalog.opendata.city/dataset/pediacities-nyc-neighborhoods/resource/91778048-3c58-449c-a3f9-365ed203e914
-  var geocachePromise = Cesium.KmlDataSource.load('./Source/SampleData/sampleGeocacheLocations.kml', kmlOptions);
+  // var geocachePromise = Cesium.KmlDataSource.load('./Source/SampleData/sampleGeocacheLocations.kml', kmlOptions);
+  var geocachePromise = Cesium.KmlDataSource.load('./Source/SampleData/jiagnanGoverment.kml', kmlOptions);
 
   // Add geocache billboard entities to scene and style them
   geocachePromise.then(function (dataSource) {
@@ -125,13 +130,15 @@
   var geojsonOptions = {
     clampToGround: true
   };
-  // Load neighborhood boundaries from a GeoJson file
+  // Load neighborhood boundaries from a GeoJson file 面数据
   // Data from : https://data.cityofnewyork.us/City-Government/Neighborhood-Tabulation-Areas/cpf4-rkhq
-  var neighborhoodsPromise = Cesium.GeoJsonDataSource.load('./Source/SampleData/sampleNeighborhoods.geojson', geojsonOptions);
+  // var neighborhoodsPromise = Cesium.GeoJsonDataSource.load('./Source/SampleData/sampleNeighborhoods.geojson', geojsonOptions);
+  var neighborhoodsPromise = Cesium.GeoJsonDataSource.load('./Source/SampleData/jiangan.json', geojsonOptions);
 
   // Save an new entity collection of neighborhood data
   var neighborhoods;
   neighborhoodsPromise.then(function (dataSource) {
+    debugger
     // Add the new data as entities to the viewer
     viewer.dataSources.add(dataSource);
     neighborhoods = dataSource.entities;
@@ -143,7 +150,7 @@
 
       if (Cesium.defined(entity.polygon)) {
         // Use kml neighborhood value as entity name
-        entity.name = entity.properties.neighborhood;
+        // entity.name = entity.properties.neighborhood;
         // Set the polygon material to a random, translucent color
         entity.polygon.material = Cesium.Color.fromRandom({
           red: 0.1,
@@ -172,8 +179,10 @@
     }
   });
 
-  // Load a drone flight path from a CZML file
-  var dronePromise = Cesium.CzmlDataSource.load('./Source/SampleData/sampleFlight.czml');
+  // Load a drone flight path from a CZML file 飞行轨迹
+  // var dronePromise = Cesium.CzmlDataSource.load('./Source/SampleData/sampleFlight.czml');
+  var dronePromise = Cesium.CzmlDataSource.load('./Source/SampleData/jiangan.czml');
+
   // Save a new drone model entity
   var drone;
   dronePromise.then(function (dataSource) {
@@ -204,7 +213,10 @@
   //////////////////////////////////////////////////////////////////////////
 
   // Load the NYC buildings tileset
-  var city = viewer.scene.primitives.add(new Cesium.Cesium3DTileset({ url: Cesium.IonResource.fromAssetId(75343) }));
+  // var city = viewer.scene.primitives.add(new Cesium.Cesium3DTileset({ url: Cesium.IonResource.fromAssetId(75343) }));
+  // var city = viewer.scene.primitives.add(new Cesium.Cesium3DTileset({ url: '/output/jianganselfimg/tileset.json' }));
+  // var city = viewer.scene.primitives.add(new Cesium.Cesium3DTileset({ url: '/output/oldselfimg2/tileset.json' }));
+  var city = viewer.scene.primitives.add(new Cesium.Cesium3DTileset({ url: '/output/newselfimg2/tileset.json' }));
 
 
   //////////////////////////////////////////////////////////////////////////
@@ -213,7 +225,7 @@
 
   // Define a white, opaque building style
   var defaultStyle = new Cesium.Cesium3DTileStyle({
-    color: "color('white')",
+    // color: "color('white')",
     show: true
   });
 
@@ -230,13 +242,20 @@
   var heightStyle = new Cesium.Cesium3DTileStyle({
     color: {
       conditions: [
-        ["${Height} >= 300", "rgba(45, 0, 75, 0.5)"],
-        ["${Height} >= 200", "rgb(102, 71, 151)"],
-        ["${Height} >= 100", "rgb(170, 162, 204)"],
-        ["${Height} >= 50", "rgb(224, 226, 238)"],
-        ["${Height} >= 25", "rgb(252, 230, 200)"],
-        ["${Height} >= 10", "rgb(248, 176, 87)"],
-        ["${Height} >= 5", "rgb(198, 106, 11)"],
+        // ["${Height} >= 300", "rgba(45, 0, 75, 0.5)"],
+        // ["${Height} >= 200", "rgb(102, 71, 151)"],
+        // ["${Height} >= 100", "rgb(170, 162, 204)"],
+        // ["${Height} >= 50", "rgb(224, 226, 238)"],
+        // ["${Height} >= 25", "rgb(252, 230, 200)"],
+        // ["${Height} >= 10", "rgb(248, 176, 87)"],
+        // ["${Height} >= 5", "rgb(198, 106, 11)"],
+        ["${height3} >= 300", "rgba(45, 0, 75, 0.5)"],
+        ["${height3} >= 200", "rgb(102, 71, 151)"],
+        ["${height3} >= 100", "rgb(170, 162, 204)"],
+        ["${height3} >= 50", "rgb(86 104 216)"],
+        ["${height3} >= 25", "rgb(252, 230, 200)"],
+        ["${height3} >= 10", "rgb(248, 176, 87)"],
+        ["${height3} >= 5", "rgb(198, 106, 11)"],
         ["true", "rgb(127, 59, 8)"]
       ]
     }
@@ -244,6 +263,7 @@
 
   var tileStyle = document.getElementById('tileStyle');
   function set3DTileStyle() {
+    debugger
     var selectedStyle = tileStyle.options[tileStyle.selectedIndex].value;
     if (selectedStyle === 'none') {
       city.style = defaultStyle;
@@ -309,16 +329,16 @@
   // Setup Display Options
   //////////////////////////////////////////////////////////////////////////
 
-  var shadowsElement = document.getElementById('shadows');
-  var neighborhoodsElement = document.getElementById('neighborhoods');
+  // var shadowsElement = document.getElementById('shadows');
+  // var neighborhoodsElement = document.getElementById('neighborhoods');
 
-  shadowsElement.addEventListener('change', function (e) {
-    viewer.shadows = e.target.checked;
-  });
+  // shadowsElement.addEventListener('change', function (e) {
+  //   viewer.shadows = e.target.checked;
+  // });
 
-  neighborhoodsElement.addEventListener('change', function (e) {
-    neighborhoods.show = e.target.checked;
-  });
+  // neighborhoodsElement.addEventListener('change', function (e) {
+  //   neighborhoods.show = e.target.checked;
+  // });
 
   // Finally, wait for the initial city to be ready before removing the loading indicator.
   var loadingIndicator = document.getElementById('loadingIndicator');
