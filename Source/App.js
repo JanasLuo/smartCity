@@ -2,9 +2,9 @@
   "use strict";
 
   // TODO: Add your ion access token from cesium.com/ion/
-  Cesium.Ion.defaultAccessToken = '';
-  // Cesium.Ion.defaultAccessToken =
-  //   'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqdGkiOiI2ODRlYzNmMS0yNDIwLTQ2NmMtYTc3Zi0wMzM4NmQ0YjYzMTIiLCJpZCI6MzA5NjgsInNjb3BlcyI6WyJhc3IiLCJnYyJdLCJpYXQiOjE1OTQ2NDk0OTJ9.Zv-IGFXrfy8a1gJmwGBqgXEZAuNKJ-UGcjjDy-Mbass';
+  // Cesium.Ion.defaultAccessToken = '<YOUR ACCESS TOKEN HERE>';
+  Cesium.Ion.defaultAccessToken =
+    'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqdGkiOiI2ODRlYzNmMS0yNDIwLTQ2NmMtYTc3Zi0wMzM4NmQ0YjYzMTIiLCJpZCI6MzA5NjgsInNjb3BlcyI6WyJhc3IiLCJnYyJdLCJpYXQiOjE1OTQ2NDk0OTJ9.Zv-IGFXrfy8a1gJmwGBqgXEZAuNKJ-UGcjjDy-Mbass';
   //////////////////////////////////////////////////////////////////////////
   // Creating the Viewer
   //////////////////////////////////////////////////////////////////////////
@@ -26,7 +26,7 @@
   // Add Sentinel-2 imagery
   // viewer.imageryLayers.addImageryProvider(new Cesium.IonImageryProvider({ assetId: 3954 }));
   // var url = '/darkblue/tiles/{z}/{x}/{y}.jpg';
-  var url = 'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
+  var url = 'http://39.106.114.130/darkblue/tiles/{z}/{x}/{y}.jpg';
   viewer.imageryLayers.addImageryProvider(new Cesium.UrlTemplateImageryProvider({ url }));
   //////////////////////////////////////////////////////////////////////////
   // Loading Terrain
@@ -48,8 +48,8 @@
   viewer.scene.globe.enableLighting = true;
 
   // Create an initial camera view
-  var initialPosition = new Cesium.Cartesian3.fromDegrees(113.954422, 30.920587, 2631.082799425431); // 孝感
-  // var initialPosition = new Cesium.Cartesian3.fromDegrees(114.29797053337097, 30.50787510375684, 6631.082799425431); // 武汉
+  // var initialPosition = new Cesium.Cartesian3.fromDegrees(114.30385832, 30.64797001, 2631.082799425431);
+  var initialPosition = new Cesium.Cartesian3.fromDegrees(114.29797053337097, 30.50787510375684, 6631.082799425431);
   var initialOrientation = new Cesium.HeadingPitchRoll.fromDegrees(0.1077496389876024807, -30.987223091598949054, 0.025883251314954971306);
   var homeCameraView = {
     destination: initialPosition,
@@ -135,7 +135,6 @@
   // Data from : https://data.cityofnewyork.us/City-Government/Neighborhood-Tabulation-Areas/cpf4-rkhq
   // var neighborhoodsPromise = Cesium.GeoJsonDataSource.load('./Source/SampleData/sampleNeighborhoods.geojson', geojsonOptions);
   var neighborhoodsPromise = Cesium.GeoJsonDataSource.load('./Source/SampleData/jiangan.json', geojsonOptions);
-  // var neighborhoodsPromise = Cesium.GeoJsonDataSource.load('./api/source', geojsonOptions);
 
   // Save an new entity collection of neighborhood data
   var neighborhoods;
@@ -149,9 +148,8 @@
     var neighborhoodEntities = dataSource.entities.values;
     for (var i = 0; i < neighborhoodEntities.length; i++) {
       var entity = neighborhoodEntities[i];
-      // polygon
+
       if (Cesium.defined(entity.polygon)) {
-        console.log('polygon entity', entity)
         // Use kml neighborhood value as entity name
         // entity.name = entity.properties.neighborhood;
         // Set the polygon material to a random, translucent color
@@ -159,13 +157,8 @@
           red: 0.1,
           maximumGreen: 0.5,
           minimumBlue: 0.5,
-          alpha: 0.1
+          alpha: 0.6
         });
-        // entity.polygon.material = Cesium.Color.LIGHTGREEN.withAlpha(0.5);
-        entity.polygon.extrudedHeight = 50.0;
-        entity.polygon.outline = true;
-        entity.polygon.outlineColor = Cesium.Color.LIGHTGREEN.withAlpha(1);
-        entity.polygon.outlineWidth = 20;
         // Tells the polygon to color the terrain. ClassificationType.CESIUM_3D_TILE will color the 3D tileset, and ClassificationType.BOTH will color both the 3d tiles and terrain (BOTH is the default)
         entity.polygon.classificationType = Cesium.ClassificationType.TERRAIN;
         // Generate Polygon center
@@ -184,38 +177,7 @@
           disableDepthTestDistance: 100.0
         };
       }
-      // polyline
-      if (Cesium.defined(entity.polyline)) {
-        console.log('polyline entity', entity)
-        entity.polyline.material = new Cesium.PolylineGlowMaterialProperty({
-          glowPower: .1, //一个数字属性，指定发光强度，占总线宽的百分比。
-          color: Cesium.Color.ORANGERED.withAlpha(.9)
-        })
-        entity.polyline.width = 50
-        entity.polyline.show = true
-      }
     }
-  });
-
-  var redPolygon = viewer.entities.add({
-    name: "Red polygon on surface",
-    polygon: {
-      hierarchy: Cesium.Cartesian3.fromDegreesArray([
-        114.2306900024414,
-        30.636435033976316,
-        114.22931671142578,
-        30.586203812332297,
-        114.29077148437499,
-        30.616345672089043,
-        114.2306900024414,
-        30.636435033976316
-      ]),
-      material: Cesium.Color.RED.withAlpha(0.5),
-      outline: true,
-      outlineWidth: 100,
-      outlineColor: Cesium.Color.BLACK,
-      extrudedHeight: 20,
-    },
   });
 
   // Load a drone flight path from a CZML file 飞行轨迹
@@ -256,7 +218,7 @@
   // var city = viewer.scene.primitives.add(new Cesium.Cesium3DTileset({ url: '/output/jianganselfimg/tileset.json' }));
   // var city = viewer.scene.primitives.add(new Cesium.Cesium3DTileset({ url: '/output/oldselfimg2/tileset.json' }));
   // var city = viewer.scene.primitives.add(new Cesium.Cesium3DTileset({ url: '/output/newselfimg2/tileset.json' }));
-  var city = viewer.scene.primitives.add(new Cesium.Cesium3DTileset({ url: '/output/xiaogan2/tileset.json' }));
+  var city = viewer.scene.primitives.add(new Cesium.Cesium3DTileset({ url: 'http://39.106.114.130/3dtiles/jiangan/tileset.json' }));
 
 
   //////////////////////////////////////////////////////////////////////////
@@ -303,6 +265,7 @@
 
   var tileStyle = document.getElementById('tileStyle');
   function set3DTileStyle() {
+    debugger
     var selectedStyle = tileStyle.options[tileStyle.selectedIndex].value;
     if (selectedStyle === 'none') {
       city.style = defaultStyle;
